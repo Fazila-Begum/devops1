@@ -11,4 +11,4 @@ def submit():
     year=request.form['year']
     return render_template('result.html',name=username,mail=email,roll=rollno,yr=year)
 if __name__=="__main__":
-    app.run(host='0.0.0.0',port=5000,debug=True)
+    app.run(debug=True)
